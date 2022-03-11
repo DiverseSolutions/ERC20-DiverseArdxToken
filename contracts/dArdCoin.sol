@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.5.11;
 
+import "./ERC20Interface.sol";
+import "./Ownable.sol";
+import "./SafeMathLibrary.sol";
+
 // ----------------------------------------------------------------------------
 // ERC20 Token, with the addition of symbol, name and decimals and a
 // fixed supply that can be minted or burned later
