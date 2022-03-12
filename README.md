@@ -1,4 +1,7 @@
 ### Diverse ARDX
+[![Diverse Metamask](https://img.shields.io/badge/Diverse%20Metamask-blue?style=flat&logo=github&labelColor=blue)](https://github.com/DiverseSolutions/Diverse-Metamask-API)
+<a href="https://metamask.dsolutions.mn/add-token?name=Diverse ARDX&symbol=dARDX&decimals=18&address=0x356058b999d315Ef9F6d13f1C478591E9C667831&imgUrl=https://ardcoin.com/wp-content/themes/ardcoin/images/logo/logo3.png">![Diverse Metamask](https://img.shields.io/badge/Diverse%20Metamask-Add%20Token-blue?style=flat&logo=github)</a>
+<br/>
 ---
   Token was created to learn more about the ardx token & 
 also be used for diverse dapp's where a token is needed.
@@ -25,5 +28,5 @@ ARDX token smart contract code was forked from etherscan's verified codebase.
    - Token Verified
    - Contract Address - 0x356058b999d315Ef9F6d13f1C478591E9C667831 
    - Contract Owner Address - 0xb83E7D21cd4c2f162692bbf2C94f864FEE488965
-   - <a target="_blank" href="https://metamask.dsolutions.mn/add-token?name=Diverse ARDX&symbol=dARDX&decimals=18&address=0x356058b999d315Ef9F6d13f1C478591E9C667831&imgUrl=https://ardcoin.com/wp-content/themes/ardcoin/images/logo/logo3.png">Add Token To Metamask</a>
+   - <a href="https://metamask.dsolutions.mn/add-token?name=Diverse ARDX&symbol=dARDX&decimals=18&address=0x356058b999d315Ef9F6d13f1C478591E9C667831&imgUrl=https://ardcoin.com/wp-content/themes/ardcoin/images/logo/logo3.png">Add Token To Metamask</a>
 
