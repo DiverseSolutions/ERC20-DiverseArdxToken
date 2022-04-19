@@ -3,17 +3,23 @@ const { ethers } = require("hardhat");
 
 describe("Greeter", function () {
   it("Should return the new greeting once it's changed", async function () {
-    const Greeter = await ethers.getContractFactory("Greeter");
-    const greeter = await Greeter.deploy("Hello, world!");
-    await greeter.deployed();
+    const dArdCoin = await hre.ethers.getContractFactory("dArdCoin");
 
-    expect(await greeter.greet()).to.equal("Hello, world!");
+    let tokenName = "ArdCoin"
+    let tokenSymbol = "ARDX"
+    let tokenDecimals = 2
+    let tokenSupply = hre.ethers.utils.parseUnits("10000000000",2)
 
-    const setGreetingTx = await greeter.setGreeting("Hola, mundo!");
+    const tokenInstance = await dArdCoin.deploy(tokenSymbol,tokenName,tokenSupply,tokenDecimals);
+    await tokenInstance.deployed()
 
-    // wait until the transaction is mined
-    await setGreetingTx.wait();
+    // expect(await greeter.greet()).to.equal("Hello, world!");
 
-    expect(await greeter.greet()).to.equal("Hola, mundo!");
+    // const setGreetingTx = await greeter.setGreeting("Hola, mundo!");
+
+    // // wait until the transaction is mined
+    // await setGreetingTx.wait();
+
+    // expect(await greeter.greet()).to.equal("Hola, mundo!");
   });
 });
